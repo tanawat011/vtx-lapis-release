@@ -6,7 +6,7 @@ account, no cloud. Saved passwords go to your system's
 keychain (macOS Keychain, Windows Credential Manager).
 
 **This repository holds the release files only.** Get VTX Lapis from
-[**Releases → the latest one**](https://github.com/tanawat011/lapis-releases/releases/latest):
+[**Releases → the latest one**](https://github.com/tanawat011/vtx-lapis-release/releases/latest):
 
 | Your computer | The file to download |
 | --- | --- |
@@ -53,7 +53,7 @@ downloads or installs anything by itself.
 
 ## Found a problem?
 
-Open an issue here: [Issues → New issue](https://github.com/tanawat011/lapis-releases/issues/new). Say what you did, what you expected and what happened, with the version (VTX Lapis → About) and
+Open an issue here: [Issues → New issue](https://github.com/tanawat011/vtx-lapis-release/issues/new). Say what you did, what you expected and what happened, with the version (VTX Lapis → About) and
 your operating system. View → Activity Log shows what the app did last. Never paste a password or a
 connection string with one in it.
 
@@ -62,6 +62,6 @@ connection string with one in it.
 **ภาษาไทย:** VTX Lapis เป็นโปรแกรมจัดการฐานข้อมูล (PostgreSQL, MySQL / MariaDB, SQL Server, SQLite, MongoDB, Redis)
 ข้อมูลอยู่ในเครื่องทั้งหมด ไม่มีบัญชี ไม่มี cloud · **ที่นี่คือรุ่น Free ใช้ฟรี** ส่วน Back up, Restore, Clone, Copy table, export JSON / SQL,
 Compare, ER diagram, Performance, Sessions เป็น Pro (ยังไม่เปิดขาย) ·
-ดาวน์โหลดจาก [Releases](https://github.com/tanawat011/lapis-releases/releases/latest) — Mac เอา `universal.dmg`,
+ดาวน์โหลดจาก [Releases](https://github.com/tanawat011/vtx-lapis-release/releases/latest) — Mac เอา `universal.dmg`,
 Windows เอา `x64_portable.zip` · ยังไม่ได้ sign: ครั้งแรกต้องกดอนุญาต (ดูข้างบน) · ยังเป็น preview: สำรองฐานข้อมูลก่อนใช้กับข้อมูลสำคัญ ·
-เจอปัญหา: เปิด [Issue](https://github.com/tanawat011/lapis-releases/issues/new)
+เจอปัญหา: เปิด [Issue](https://github.com/tanawat011/vtx-lapis-release/issues/new)

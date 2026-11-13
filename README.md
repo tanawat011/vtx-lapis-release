@@ -1,8 +1,8 @@
 # VTX Lapis — Public Preview
 
 VTX Lapis is a desktop database manager for PostgreSQL, MySQL / MariaDB, SQL Server, SQLite, MongoDB and Redis:
-browse and edit tables, write and run queries, compare schemas and data, back up and restore, see what the
-server is doing. Everything stays on your computer: no account, no cloud. Saved passwords go to your system's
+browse and edit tables, write and run queries, manage users and roles. Everything stays on your computer: no
+account, no cloud. Saved passwords go to your system's
 keychain (macOS Keychain, Windows Credential Manager).
 
 **This repository holds the release files only.** Get VTX Lapis from
@@ -11,16 +11,27 @@ keychain (macOS Keychain, Windows Credential Manager).
 | Your computer | The file to download |
 | --- | --- |
 | Mac (Apple silicon or Intel) | `VTX-Lapis_<version>_universal.dmg` |
-| Windows 10 / 11 | `VTX-Lapis_<version>_x64_portable.zip` — unzip and run, nothing to install |
+| Windows 10 / 11 | `VTX-Lapis_<version>_x64_portable.zip` — unzip and run `VTX Lapis.exe`, nothing to install |
 
 `SHA256SUMS.txt` beside them lists each file's checksum.
 
-## Public Preview
+## Public Preview — the Free edition
 
-VTX Lapis is free during the Public Preview. Some features may become part of a paid Pro version later.
+What you download here is the **Free edition**, free to use: every engine, as many connections as you like,
+browsing, queries and editing, CSV export, SSH tunnels, query files, and Users & Roles.
+
+These are **Pro** — they stay in the app, marked PRO, and are not out yet: Back up, Restore, Clone,
+Copy table, export as JSON or SQL, Compare schemas & data, the ER diagram, Performance and Sessions.
 
 It is a preview: **back up a database before you use VTX Lapis on data you care about**, and try it on a copy
 first where you can.
+
+## Upgrading from Vatol or an older build
+
+The app was called Vatol. From 0.3.0 the first launch copies what the old name kept — connections, query files,
+open tabs, preferences — and never changes or deletes it; each saved password comes over the first time its
+connection opens. Quit the old app first. On Windows, copy the old `data` folder next to the new `VTX Lapis.exe`
+before the first launch. The release notes have the steps.
 
 ## The first time you open it
 
@@ -49,7 +60,8 @@ connection string with one in it.
 ---
 
 **ภาษาไทย:** VTX Lapis เป็นโปรแกรมจัดการฐานข้อมูล (PostgreSQL, MySQL / MariaDB, SQL Server, SQLite, MongoDB, Redis)
-ข้อมูลอยู่ในเครื่องทั้งหมด ไม่มีบัญชี ไม่มี cloud · **Public Preview: ใช้ฟรีช่วงนี้** บางฟีเจอร์อาจเป็น Pro ภายหลัง ·
+ข้อมูลอยู่ในเครื่องทั้งหมด ไม่มีบัญชี ไม่มี cloud · **ที่นี่คือรุ่น Free ใช้ฟรี** ส่วน Back up, Restore, Clone, Copy table, export JSON / SQL,
+Compare, ER diagram, Performance, Sessions เป็น Pro (ยังไม่เปิดขาย) ·
 ดาวน์โหลดจาก [Releases](https://github.com/tanawat011/lapis-releases/releases/latest) — Mac เอา `universal.dmg`,
 Windows เอา `x64_portable.zip` · ยังไม่ได้ sign: ครั้งแรกต้องกดอนุญาต (ดูข้างบน) · ยังเป็น preview: สำรองฐานข้อมูลก่อนใช้กับข้อมูลสำคัญ ·
 เจอปัญหา: เปิด [Issue](https://github.com/tanawat011/lapis-releases/issues/new)
